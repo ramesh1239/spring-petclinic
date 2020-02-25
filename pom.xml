@@ -55,6 +55,13 @@
             <version>${tomcat.version}</version>
             <scope>provided</scope>
         </dependency>
+            <dependency>
+        <groupId>com.felees</groupId>
+        <artifactId>hbnpojogen-persistence</artifactId>
+        <version> 1.4.4</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/hbnPojoGenResource/hbnpojogen-persistence-1.4.4.jar</systemPath>
+    </dependency>
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
